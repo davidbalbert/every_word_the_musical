@@ -5,7 +5,6 @@ A Twitter bot to generate musical theater ideas.
 ## Requirements
 
 - A new-ish Ruby
-- SSH and a keypair configured on AWS
 
 ## Running it locally
 

@@ -1,6 +1,8 @@
 #!/bin/sh
 
 sudo apt-get update
+sudo apt-get upgrade -y
+
 sudo apt-get install -y unattended-upgrades
 
 sudo cp etc/apt/apt.conf.d/20auto-upgrades /etc/apt/apt.conf.d/20auto-upgrades
