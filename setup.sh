@@ -10,7 +10,7 @@ sudo service unattended-upgrades restart
 
 sudo apt-get install -y build-essential ruby2.0 ruby2.0-dev
 
-sudo gem install bundler
+sudo gem2.0 install bundler
 
 bundle install --deployment
 
