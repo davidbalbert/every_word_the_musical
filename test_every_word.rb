@@ -1,6 +1,6 @@
-require 'minitest/autorun'
-
 require './every_word'
+
+require 'minitest/autorun'
 
 class EveryWordTest < Minitest::Test
   def self.test(name, &block)
