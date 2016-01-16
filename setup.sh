@@ -6,7 +6,7 @@ sudo cp etc/apt/apt.conf.d/50unattended-upgrades /etc/apt/apt.conf.d/50unattende
 sudo apt-get install -y unattended-upgrades
 sudo service unattended-upgrades restart
 
-sudo apt-get install build-essential ruby2.0 ruby2.0-dev
+sudo apt-get install -y build-essential ruby2.0 ruby2.0-dev
 
 sudo gem install bundler
 
